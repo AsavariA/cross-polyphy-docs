@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+displayed_sidebar: tutorialSidebar
 ---
 
 # Create a Blog Post

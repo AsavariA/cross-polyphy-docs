@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+displayed_sidebar: tutorialSidebar
 ---
 
 # Create a Page

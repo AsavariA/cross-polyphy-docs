@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+displayed_sidebar: tutorialSidebar
 ---
 
 # Deploy your site
