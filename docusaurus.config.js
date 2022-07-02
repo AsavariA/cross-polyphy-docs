@@ -63,16 +63,16 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
+          // {
+          //   type: "doc",
+          //   docId: "intro",
+          //   position: "left",
+          //   label: "Tutorial",
+          // },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
             type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Tutorial",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            type: "doc",
-            docId: "contribution/Open an Issue",
+            docId: "/contribution",
             position: "left",
             label: "Contibution",
           },

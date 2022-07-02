@@ -2,6 +2,8 @@
 sidebar_position: 1
 displayed_sidebar: contributionSidebar
 ---
+# Open an Issue 
+This is a guide for opening an issue in the Polyphy repository.
 
 ## Steps
 
