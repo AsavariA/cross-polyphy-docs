@@ -5,6 +5,14 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
 :root {
   --ifm-color-primary: #f98203;
   --ifm-color-primary-dark: #f07e03;
@@ -27,4 +35,108 @@
   --ifm-color-primary-lighter: #fb9426;
   --ifm-color-primary-lightest: #fda140;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+p {
+  line-height: 1.5rem;
+  font-size: 14px;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: px;
+  background: #3f3f40;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #e27101; 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #cc5f00; 
+}
+
+.footer {
+  background-color: rgb(44, 44, 44);
+  padding: 4rem 2rem;
+}
+
+.footer__title {
+  display: none;
+}
+
+.footer__col {
+  margin-bottom: 20px;
+}
+
+.footer h1{
+  text-align: center;
+  position: relative;
+  font-family: "Bitter", serif;
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 1.4px;
+  transform: translateY(80%);
+}
+
+.footer-column {
+  width: fit-content;
+  margin: auto;
+}
+
+.footer-column h2 {
+  font-family: "Bitter", serif;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  margin: 0;
+  margin-left: 10px;
+  line-height: 2rem;
+}
+
+.footer-column p:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  opacity: 0.6;
+  transform: translateY(15px)
+}
+
+.footer__links {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width : 1000px){
+  p {
+    font-size: 13px;
+  }
+
+  .footer__copyright {
+    font-size: 13px;
+    transform: none;
+  }
+
+  .footer {
+    padding: 2rem 1rem;
+  }
+
+  .footer h1{
+      font-size: 30px;
+      text-align: left;
+      transform: translateY(50%);
+  }
+
+  .footer-column {
+    width: fit-content;
+    margin: 0;
+  }
 }

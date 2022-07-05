@@ -29,7 +29,7 @@ const sidebars = {
         title: "Contribution Guides",
         description:
           "Learn how to be a part of us! Contribute to polyphy using these guides.",
-        slug: "/contribution",
+        slug: "/",
         keywords: ["contribution"],
       },
       items: [

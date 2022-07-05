@@ -33,6 +33,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -59,8 +60,8 @@ const config = {
       navbar: {
         title: "Polyphy",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "Polyphy Logo",
+          src: "img/logo192.png",
         },
         items: [
           // {
@@ -70,12 +71,12 @@ const config = {
           //   label: "Tutorial",
           // },
           // { to: "/blog", label: "Blog", position: "left" },
-          {
-            type: "doc",
-            docId: "/contribution",
-            position: "left",
-            label: "Contibution",
-          },
+          // {
+          //   type: "doc",
+          //   docId: "/contribution",
+          //   position: "left",
+          //   label: "Contibution",
+          // },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
@@ -87,46 +88,58 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                html: `
+                <h1>POLYPHORM</h1>
+              `,
               },
             ],
           },
           {
-            title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                html: `
+                <div class="footer-column">
+            <h2>Quick Links</h2>
+            <p>About</p>
+            <p>Documenation</p>
+            <p>References</p>
+          </div>
+              `,
               },
             ],
           },
           {
-            title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                html: `
+                <div class="footer-column">
+            <h2>Contribution</h2>
+            <p>All Issues</p>
+            <p>Open an Issue</p>
+            <p>Pull Request</p>
+          </div>
+              `,
               },
+            ],
+          },
+          {
+            items: [
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                html: `
+                <div class="footer-column">
+            <h2>Community</h2>
+            <p>GitHub</p>
+            <p>Slack Channel</p>
+            <p>Discussions</p>
+          </div>
+              `,
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PolyPhy, Center of Research for Open Source Software`,
       },
       prism: {
         theme: lightCodeTheme,
