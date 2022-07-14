@@ -64,19 +64,19 @@ const config = {
           src: "img/logo192.png",
         },
         items: [
-          // {
-          //   type: "doc",
-          //   docId: "intro",
-          //   position: "left",
-          //   label: "Tutorial",
-          // },
+          {
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Tutorial",
+          },
           // { to: "/blog", label: "Blog", position: "left" },
-          // {
-          //   type: "doc",
-          //   docId: "/contribution",
-          //   position: "left",
-          //   label: "Contibution",
-          // },
+          {
+            type: "doc",
+            docId: "/category/contribution",
+            position: "left",
+            label: "Contribution",
+          },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
